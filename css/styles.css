@@ -1,3 +1,5 @@
+/**********  CSS code for tags.  **********/
+
 body{
     margin: 0;
     text-align: center;
@@ -23,6 +25,15 @@ h3 {
     font-size: 150%;
 }
 
+hr {
+    width: 10%;
+    border: dotted;
+    border-color: #66BFBF;
+    border-width: 6px 0 0;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
 a {
     color: #11999E;
     text-decoration: none;
@@ -36,38 +47,7 @@ p {
     color: #40514E;
 }
 
-hr {
-    width: 10%;
-    border: dotted;
-    border-color: #66BFBF;
-    border-width: 6px 0 0;
-    margin-top: 70px;
-    margin-bottom: 70px;
-}
-
-.top-container {
-    background-color: #E4F9F5;
-    position: relative;
-    padding-top: 100px;
-}
-
-.middle-container {
-    background-color: #EAF6F6;
-    padding: 50px 0;
-    margin-bottom: 0;
-}
-
-.bottom-container {
-    background-color: #66bfbf;
-    line-height: 2;
-    padding: 40px 0;
-}
-
-.top-cloud {
-    position: absolute;
-    right: 350px;
-    top: 30px;
-}
+/**********  CSS code for classes.  **********/
 
 .bottom-cloud {
     position: absolute;
@@ -75,45 +55,10 @@ hr {
     bottom: 300px;
 }
 
-.programmer {
-    font-weight: normal;
-}
-
-.skill-row {
-    margin: 100px auto 100px auto;
-    width: 50%;
-}
-
-.computer-text {
-    text-align: left;
+.bottom-container {
+    background-color: #66bfbf;
     line-height: 2;
-    position: relative;
-    left: 30px;
-}
-
-.computer-image {
-    width: 25%;
-    float: left;
-}
-
-.python-text {
-    text-align: left;
-    line-height: 2;
-    /* position: relative; */
-    /* right: 30px; */
-}
-
-.python-image {
-    width: 25%;
-    float: right;
-}
-
-.copyright {
-    color: #eaf6f6;
-}
-
-.footer-link {
-    margin: 20px;
+    padding: 40px 0;
 }
 
 .BUTTON_YAB {
@@ -134,4 +79,63 @@ hr {
     display: inline-block;
     cursor: pointer;
     text-align: center;
- }
+}
+
+.computer-image {
+    width: 25%;
+    float: left;
+}
+
+.computer-text {
+    text-align: left;
+    line-height: 2;
+    position: relative;
+    left: 30px;
+}
+
+.copyright {
+    color: #eaf6f6;
+}
+
+.footer-link {
+    margin: 20px;
+}
+
+.middle-container {
+    background-color: #EAF6F6;
+    padding: 50px 0;
+    margin-bottom: 0;
+}
+
+.programmer {
+    font-weight: normal;
+}
+
+.python-image {
+    width: 25%;
+    float: right;
+}
+
+.python-text {
+    text-align: left;
+    line-height: 2;
+    /* position: relative; */
+    /* right: 30px; */
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 350px;
+    top: 30px;
+}
